@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>函数</title>
+    <script type="text/javascript">
+        // function sum(a, b) {
+        //     a = parseInt(a);
+        //     b = parseInt(b);
+        //     alert(a + b);
+        // }
+        //
+        // var a = prompt("请输入第一个数");
+        // var b = prompt("请输入第二个数");
+        // sum(a, b);
+        //
+        // (function () {
+        //
+        // })();
+
+    </script>
+</head>
+<body>
+<button class="btn1" id="btn"> 这是第一个按钮</button>
+<div> 我是div标签 </div>
+<script type="text/javascript">
+    let btn1 = document.getElementsByClassName('btn1');
+    // let btn = document.getElementById("btn");
+    // console.log(btns);
+    // btn.onclick = function(){
+    //     alert("您点击了按钮");
+    // }
+    console.dir("btn1")
+    btn1[0].onclick = function(){
+        alert("您点击了按钮");
+    }
+    let div = document.querySelector("div");
+    div.onclick = function () {
+        alert("您点击了div标签");
+    }
+</script>
+</body>
+</html>

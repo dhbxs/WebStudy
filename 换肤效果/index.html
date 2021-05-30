@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>百度换肤效果</title>
+    <style type="text/css">
+        li,
+        body,
+        img {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        ul li {
+            float: left;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            vertical-align: middle;
+        }
+
+        ul li img {
+            width: 300px;
+            height: 200px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        ul li img:hover {
+            transform: scale(1.05);
+        }
+
+        .baidu {
+            width: 1200px;
+            margin: 100px auto;
+        }
+
+        body {
+            background: repeat center top;
+            background-size: 1920px 1080px ;
+        }
+    </style>
+</head>
+<body>
+<ul class="baidu">
+    <li><img src="images/1.jpg" alt=""></li>
+    <li><img src="images/2.jpg" alt=""></li>
+    <li><img src="images/3.jpg" alt=""></li>
+    <li><img src="images/4.jpg" alt=""></li>
+</ul>
+<script type="text/javascript">
+    let imgs = document.querySelector('.baidu').querySelectorAll('img');
+    for (let i = 0; i < imgs.length; i++) {
+        imgs[i].onclick = function () {
+            document.body.style.backgroundImage = 'url(' + this.src + ')';
+        }
+    }
+</script>
+</body>
+</html>

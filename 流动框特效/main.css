@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background-color: #333;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 350px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.main ul li {
+  list-style-type: none;
+  padding-top: 10px;
+  text-align: center;
+}
+.main ul li input {
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 5px;
+  font-size: 20px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+.main ul li button {
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  transition: 0.3s liner;
+}
+.main ul li button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+span.pixal {
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  width: 4px;
+  height: 4px;
+  background: white;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=main.css.map */

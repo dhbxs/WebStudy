@@ -1,0 +1,260 @@
+/*首页main模块*/
+.main {
+    height: 455px;
+    width: 980px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li i {
+    margin-top: 12px;
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background: url("../images/icons.png") no-repeat -19px -15px;
+}
+
+.lifeservice ul li:nth-child(2) i {
+    background: url("../images/icons.png") no-repeat -79px -15px;
+}
+
+.lifeservice ul li:nth-child(2) img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lifeservice ul li:nth-child(3) i {
+    background: url("../images/icons.png") no-repeat -141px -15px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+    background: url("../images/icons.png") no-repeat -205px -15px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+    background: url("../images/icons.png") no-repeat -19px -84px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+    background: url("../images/icons.png") no-repeat -79px -84px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+    background: url("../images/icons.png") no-repeat -141px -84px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+    background: url("../images/icons.png") no-repeat -205px -84px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+    background: url("../images/icons.png") no-repeat -19px -156px;
+}
+
+
+.lifeservice ul li:nth-child(10) i {
+    background: url("../images/icons.png") no-repeat -79px -156px;
+}
+
+
+.lifeservice ul li:nth-child(11) i {
+    background: url("../images/icons.png") no-repeat -141px -150px;
+}
+
+
+.lifeservice ul li:nth-child(12) i {
+    background: url("../images/icons.png") no-repeat -205px -156px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news-hd h5 {
+    float: left;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    content: '\e920';
+    font-family: 'icomoon', serif;
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 100%;
+    width: 208px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: #5c5251;
+}
+
+.recom_bd {
+    float: right;
+    background-color: #ebebeb;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    height: 163px;
+    width: 248px;
+}
+
+.recom_bd ul li:nth-child(-n + 3)::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+/*家用电器模块*/
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_content {
+
+}
+
+.tab_list_item > div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    line-height: 34px;
+    text-align: center;
+    margin-right: 10px;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_219 {
+    width: 219px;
+}
+

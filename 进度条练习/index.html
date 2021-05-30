@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>进度条</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .bar {
+            width: 300px;
+            height: 22px;
+            margin: 100px auto;
+            border: solid 1px gray;
+            border-radius: 10px;
+            padding: 1px;
+        }
+
+        .bar .bar_in {
+            width: 30%;
+            height: 100%;
+            background-color: skyblue;
+            border-radius: 10px;
+            transition: all .8s;
+        }
+
+        .bar:hover .bar_in{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="bar">
+    <div class="bar_in"></div>
+</div>
+</body>
+</html>

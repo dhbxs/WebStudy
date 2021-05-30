@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝轮播图</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .banner {
+            position: relative;
+            width: 520px;
+            height: 280px;
+            margin: 100px auto;
+        }
+
+        .banner img {
+            width: 520px;
+            height: 280px;
+        }
+
+        /*并集选择器*/
+        .prev,
+        .next {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            width: 20px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.3);
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .next {
+            /*如果既有left属性，又有right属性，会执行left属性*/
+            right: 0;
+            border-radius: 15px 0 0 15px;
+        }
+
+        .promo-nav {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -35px;
+            background-color: rgba(255, 255, 255, .7);
+            width: 70px;
+            height: 13px;
+            border-radius: 7px;
+        }
+
+        .promo-nav li {
+            width: 8px;
+            height: 8px;
+            float: left;
+            margin: 3px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+
+        .promo-nav .selected {
+            background-color: #ff5000;
+        }
+    </style>
+</head>
+<body>
+<div class="banner">
+    <img src="images/banner.jpg" alt="图片无法加载">
+    <!--左侧按钮-->
+    <a href="#" class="prev"> &lt; </a>
+    <a href="#" class="next"> &gt; </a>
+    <ul class="promo-nav">
+        <li class="selected"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>
